@@ -18,7 +18,7 @@ body{
 .container{
     padding: 30px;
 	position: relative;
-	background: linear-gradient(45deg, rgb(128,128,128), rgb(255,255,255);
+	background: linear-gradient(45deg, rgb(128,128,128), rgb(255,255,255));
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -104,7 +104,7 @@ body{
 	flex-shrink: 0;
 	position: relative;
 	padding: 20px;
-	background: linear-gradient(45deg, rgb(128,128,128), rgb(255,255,255);
+	background: linear-gradient(45deg, rgb(128,128,128), rgb(255,255,255));
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
