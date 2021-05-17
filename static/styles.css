@@ -4,7 +4,7 @@ html{
 }
 
 body{
-	font-family: Arial, Helvetica,sans-serif;
+	font-family: Papyrus, Fantasy;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body{
 .container{
     padding: 30px;
 	position: relative;
-	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+	background: linear-gradient(45deg, rgb(128,128,128), rgb(255,255,255);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -39,17 +39,18 @@ body{
 }
 
 .heading_font{
-    color: #ffffff;
+    color: rgb(0,0,0);
 	font-family: 'Pacifico', cursive;
 	font-size: 35px;
 	font-weight: normal;
 }
 
 .description p{
-	color: #ffffff;
-    font-style: italic;
-    font-size: 14px;
-    margin: -5px 0 0;
+	color: rgb(0,0,0); 
+	font-style: italic;
+	font-weight: 900;
+	font-size: 14px;
+	margin: -5px 0 0;
 }
 
 /* Text Area */
@@ -75,7 +76,7 @@ body{
     padding: 10px 36px;
     color: #000000;
     display: inline-block;
-   	font: italic bold 20px/1 "Calibri", sans-serif;
+   	font: italic bold 20px/1 "Brush Script MT", Cursive;
     text-align: center;
 }
 
@@ -103,7 +104,7 @@ body{
 	flex-shrink: 0;
 	position: relative;
 	padding: 20px;
-	background: linear-gradient(45deg, #443B96, #F60B68, #F4483A);
+	background: linear-gradient(45deg, rgb(128,128,128), rgb(255,255,255);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
