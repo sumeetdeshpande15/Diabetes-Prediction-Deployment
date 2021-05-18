@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the Random Forest CLassifier model
-filename = 'diabetes-prediction-model.pkl'
+filename = 'RF_model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
@@ -25,8 +25,7 @@ def predict():
         diabetes_pedigree_function = float(request.form['diabetes_pedigree_function'])
         age = int(request.form['age'])
         
-        data = np.array([[pregnancies, glucose, blood_pressure, 
-                          skin_thickness, insulin, bmi,diabetes_pedigree_function, age]])
+        data = np.array([[pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, diabetes_pedigree_function, age]])
         my_prediction = classifier.predict(data)
         
         return render_template('result.html', prediction=my_prediction)
