@@ -91,7 +91,7 @@ body{
 
 /* Contact */
 .contact-icon{
-	color: #ffffff;
+	color: #000000;
 	padding: 7px;
 }
 
@@ -110,7 +110,7 @@ body{
 }
 
 .footer-description{
-	color: #ffffff;
+	color: #000000;
 	margin: 0;
 	font-size: 12px;
 }
